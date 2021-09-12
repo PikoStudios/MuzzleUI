@@ -10,7 +10,6 @@ class JSONManager:
         self.file : TextIOWrapper = open(self.filepath, "r")
 
         self.json = json.load(self.file)
-        pass
 
     def get_json(self):
         return self.json
