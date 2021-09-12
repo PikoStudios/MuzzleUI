@@ -1,5 +1,3 @@
-#define MUZZLE_DEPS
-#include <Muzzle.h>
 #include "../include/MuzzleUI.h"
 
 void MuzzleUI_SetStyle(MuzzleUI_Style style)
