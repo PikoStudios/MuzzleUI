@@ -28,13 +28,13 @@ class HeaderManager:
         
         self.header : str = \
             f'/* Generated on {self.date[1]}/{self.date[2]}/{self.date[0]}. {self.time[0]}:{self.time[1]}:{self.time[2]}:{self.time[3]} */\n' + \
-            f'#ifndef {self.json_data["name"]}_STYLE_MZUI_H\n' + \
-            f'#define {self.json_data["name"]}_STYLE_MZUI_H\n' + \
+            f'#ifndef {self.json_data["name"] : str}_STYLE_MZUI_H\n' + \
+            f'#define {self.json_data["name"] : str}_STYLE_MZUI_H\n' + \
             '#include <MuzzleUI.h>\n' + \
             '\n\n\n'
         self.contents : str = None
         self.footer : str = \
-            f'#endif // {self.json_data["name"]}_STYLE_MZUI_H'
+            f'#endif // {self.json_data["name"] : str}_STYLE_MZUI_H'
 
         self.date : list[int] = [datetime.datetime.now().date().year, datetime.datetime.now().date().month, datetime.datetime.now().date().day]
         self.time : list[int] = [datetime.datetime.now().time().hour, datetime.datetime.now().time().minute, datetime.datetime.now().time().second, datetime.datetime.now().time().microsecond]
