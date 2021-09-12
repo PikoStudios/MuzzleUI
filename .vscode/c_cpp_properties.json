@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "mzui",
+            "intelliSenseMode": "gcc-x86",
+            "cStandard": "c99",
+            "includePath": [
+                "${workspaceRoot}/../Muzzle/include",
+                "${workspaceRoot}/include"
+            ]
+        }
+    ],
+    "version": 4
+}
