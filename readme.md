@@ -6,6 +6,6 @@ UI Library for [Muzzle](https://pikostudios.github.io/Muzzle)
 - [x] Styles
 - [ ] Style Generator
 - [x] JSON -> Header File for Styles
-- [ ] Box
-- [ ] Button
+- [x] Box
+- [x] Button
 - [ ] Animations
